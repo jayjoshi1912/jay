@@ -5,7 +5,7 @@ void display(int*p)
 	int i;
 	for(i=0;i<5;i++)
 	{
-		printf("%d\n",*(p+i));
+		printf("%d\n",(*p+i));
 	}
 }
 void main()
