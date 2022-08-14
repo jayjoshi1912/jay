@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<form action="10for_valisdate.html" method="post">
+<table border="5" cellpadding="5px" cellspacing="5px">
+<tr>
+	<td>password:</td>
+	<!-- <td><input type="password" required pattern="[a-zA-Z]+" title="3 to 6 characters only...!"></td><br> -->
+	<td><input type="password" required pattern="[a-zA-Z]{3,6}" title="3 to 6 characters only...!" name="pwd" value="" placeholder="password"></td><br>
+</tr>
+<tr>
+	<td>mobile no:</td>
+	<td>+91:<input type="text"required pattern="[0-9]{10}" title="10 number only " name=""></td>
+</tr><br>
+<tr>
+	<td>Upload img:</td>
+	<td><input type="file" multiple></td>
+</tr>
+<tr><br>
+	<td>select quantity:</td>
+	<td>
+		<select>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+		</select>
+	</td>
+</tr><br>
+<tr>
+	<td>email:</td>
+	<td><input type="text" required pattern="[a-zA-Z 0-9]+@[a-zA-Z]+\.[a-zA-Z]+" title="demo123@gmail.com"></td>
+</tr><br>
+<tr>
+	<td>Qunatity:</td>
+	<td><input type="number"min="1" max="5"></td>
+</tr><br>
+<tr>
+	<td><input type="submit" name=""></td>
+</tr>
+</table>
+
+</form>
+
+</body>
+</html>
