@@ -10,6 +10,9 @@
 		span{
      		color: red;
 		}
+		td{
+			color: darkblue;
+		}
 	</style>
 </head>
 <body>
@@ -43,7 +46,7 @@
 					<td></td>
 					 <td></td>
 				     <td align="right" ><span>*</span>Password:</td>
-					<td><input type="text" name=""></td>
+					<td><input type="Password" required name=""></td>
 					<td></td>
 					<td></td>
 					
@@ -54,7 +57,7 @@
 					<td></td>
 					<td></td>
 					<td align="right"><span>*</span>Confirm Password:</td>
-					<td><input type="text" name=""></td>
+					<td><input type="Password" required name=""></td>
 					<td></td>
 					<td></td>
 					
@@ -64,28 +67,28 @@
 					<td></td>
 				</tr>
 				<tr>
-					<th style="color: red;">Persnol particulars</th>
+					<th style="color: red; " align="left">Persnol particulars</th>
 				</tr>
 				<tr>
 					
 					<td></td>
-					<td><span>*</span>Salution</li></td>
+					<td align="right"><span>*</span>Salution</li></td>
 					<td><select>	
 						<option hidden>Select</option>
 						<option>Mr</option>
 						<option>Mrs</option>
 						<option>Miss</option>
 					</select></td>
-					<td><span>*</span>First Name</td>
+					<td align="right"><span>*</span>First Name</td>
 					<td><input type="text" placeholder="Enter First Name" name=""></td>
 						</tr>
 
 						<tr>
 						 <td></td>
-				    	 <td><span>*</span>Middle Name</td>
+				    	 <td align="right"><span>*</span>Middle Name</td>
 				    	 <td><input type="text" placeholder="Enter Name" name=""></td>
 				    	 
-					     <td><span>*</span>Last Name</td>
+					     <td align="right"><span>*</span>Last Name</td>
 						 <td><input type="text" placeholder="Enter Last Name" name=""></td>
 						 
 				    	 
@@ -93,13 +96,13 @@
 
 						<tr>
 							<td></td>
-							<td><span>*</span>Resident Status</td>
+							<td align="right"><span>*</span>Resident Status</td>
 							<td><select>
 								<option hidden>Select</option>
 								<option>Indian</option>
 								<option>Other</option>
 							</select></td>
-							<td><span>*</span> Country</td>
+							<td align="right"><span>*</span> Country</td>
 							<td><select>
 								<option>Select</option>
 								<option>India</option>
@@ -109,10 +112,10 @@
 						</tr>
 						<tr>
 							<td></td>
-							<td><span>*</span>E-mail</td>
+							<td align="right"><span>*</span>E-mail</td>
 							<td><input type="E-mail" placeholder="Enter email address" required pattern="[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]+" name=""></td>
-							<td><span>*</span>Mobile Number</td>
-					<td><input type="text" placeholder="Enter Mobile Number" required pattern="[0-9]{10}" title=" Enter Only 10 Digits " name=""</td>
+							<td align="right"><span>*</span>Mobile Number</td>
+					<td><input type="text" placeholder="Enter Mobile Number" required pattern="[0-9]{10}" title=" Enter Only 10 Digits " name="" </td> 
 						</tr>
 						<tr>
 							<td></td>
@@ -124,14 +127,14 @@
 							<td></td>
 							<td><span>*</span>15 Digit Account NO</td>
 							<td><input type="text" required max="15" title="Enter 15 Digit only" placeholder="XXXXXX64432" name=""></td>
-							<td><span>*</span>Nike Name</td>
+							<td align="right"><span>*</span>Nike Name</td>
 							<td><input type="text" name=""></td>
 							
 
 						</tr>
 						<tr>
 							<td></td>
-							<td><span>*</span>Fund Transfer</td>
+							<td align="right"><span>*</span>Fund Transfer</td>
 							<td>
 								<select>
 									<option>select</option>
@@ -147,7 +150,7 @@
 					<td></td>
 				</tr>
 				<tr>
-					<th style="color: red; text-transform: uppercase;">Declarition</th>
+					<th style="color: red; text-transform: uppercase;" align="left">Declarition</th>
 				</tr>
 				<tr>
 				</tr>
@@ -170,8 +173,8 @@
 				
 				<tr>
 				
-					<td colspan="5" align="center" ><input style="background:skyblue ;" type="submit" align="right" name="">
-					<input style="background:skyblue ;" type="reset" align="right"  name=""></td>
+					<td colspan="5" align="center" ><input style="background:skyblue ; font-weight: bold; color: white;"  type="submit" align="right" name="">
+					<input style="background:skyblue ; color: white; font-weight: bold;" type="reset" align="right"  name=""></td>
 				</tr>
 			</table>
 	
