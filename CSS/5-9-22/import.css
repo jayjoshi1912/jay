@@ -1,0 +1,39 @@
+
+		p:first-child
+		{
+			background: blue;
+		}
+		p:last-child
+		{
+			background :hotpink ;
+		}
+		.a 
+		{
+			height: 200px;
+			width: 200px;
+			background: orange;
+			transition: 2s;
+		}
+		.a:hover
+		{
+			background-color: black;
+			height: 300px;
+			width: 300px;
+			/*transition: 2s;*/
+			border-radius: 50%;
+		}
+
+		input
+		{
+			border: none;
+			box-shadow: 0 0 29px indianred;
+		}
+
+		input:focus
+		{
+			background-color: blue;
+			color: white;
+			font-size: 25px;
+			height: 40px;
+			width: 100%;
+		}
