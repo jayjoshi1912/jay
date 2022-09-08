@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.a 
+		{
+			height: 500px;
+			width: 500px;
+			background: red;
+			margin: 500px auto;
+			transform: rotate(45deg);
+			
+		}
+
+		div:hover
+		{
+			background: red;
+			border-radius: 50%;
+			height: 500px;
+			width: 500px;
+			transition: 2s;
+
+		}
+
+		.a:before,
+		.a:after
+		{
+			content: "";
+			background: red;
+			border-radius: 50%;
+			height: 500px;
+			width: 500px;
+			position: absolute;
+		}
+
+		.a:before
+		{
+			top: -250px;
+			left: 0;
+		}
+		.a:after
+		{
+			left: -250px;
+			top: 0;
+		}
+	</style>
+</head>
+<body>
+<div class="a">
+	
+</div>
+</body>
+</html>
