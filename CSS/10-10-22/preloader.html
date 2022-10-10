@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.x 
+		{
+			height: 200px;
+			width: 200px;
+			background: transparent;
+			border: 10px solid transparent;
+			margin: 250px auto;
+			border-top: 10px solid blue;
+			border-radius: 50%;
+
+			/*animation-name:  preloader;
+			animation-duration: 0.9s;
+			animation-iteration-count: infinite;*/
+
+			animation:preloader 0.9s linear infinite ; 
+
+		}
+		.y 
+		{
+			height: 150px;
+			width: 150px;
+			background: transparent;
+			border: 10px solid transparent;
+			margin: 15px;
+			border-top: 10px solid darkred;
+			border-radius: 50%;
+			/*animation-name:  preloader;
+			animation-duration: 1.5s;
+			animation-iteration-count: infinite; */
+			animation:preloader 1.5s linear infinite ;
+
+		}
+		.z 
+		{
+			height: 100px;
+			width: 100px;
+			background: yellow transparent;
+			border: 10px solid transparent;
+			margin: 15px;
+			border-top:10px solid  yellow;
+			border-radius: 50%;
+			/*animation-name:  preloader;
+			animation-duration: 2s;
+			animation-iteration-count: infinite; */
+			animation:preloader 2s linear infinite ;
+
+		}
+		.z1 
+		{
+			height: 50px;
+			width: 50px;
+			background: transparent;
+			border: 10px solid transparent;
+			margin: 15px;
+			border-top:10px solid  seagreen;
+			border-radius: 50%;
+			/*animation-name:  preloader;
+			animation-duration: 2.5s;
+			animation-iteration-count: infinite;*/
+			animation:preloader 2.5s linear infinite ; 
+
+		}
+
+		@keyframes preloader
+		{
+			from{transform: rotate(0deg);}
+			to{transform: rotate(360deg);}
+		}
+
+		body 
+		{
+			background: rgba(100, 220, 200, 0.5);
+		}
+	</style>
+</head>
+<body>
+<div class="x">
+	<div class="y">
+		<div class="z">
+			<div class="z1"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
