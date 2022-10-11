@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{box-sizing: border-box;margin: 0;padding: 0;}
+		.card
+		{
+			height: 400px;
+			width: 250px;
+			box-shadow: 0 0 20px black;
+			position: relative;
+
+
+		}
+		.card .prd_img
+ 		{
+			height: 200px;
+			
+			padding: 15px 15px 0 15px;
+		
+		}
+		.card .prd_img span 
+		{
+			background: #fc636b;
+			color: white;
+			padding: 5px 20px;
+			position: absolute;
+			top: 0px;
+			right: 0px;
+
+		}
+		.card .prd_view
+ 		{
+			height: 50px;
+			background: black;
+			color: white;
+			text-align: center;
+			line-height: 50px;
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			width: 100%;
+			transition: 1s;
+			opacity: 0;
+			
+		}
+		.card .info
+		{
+			height: 200px;
+			padding-top: 50px;
+			text-align: center;
+
+		}
+		.card .info button
+		{
+			height: 50px; 
+			width: 170px;
+			margin-top: 15px; 
+			background: #2fdab8;
+			border: none;
+			color: white;
+			position: relative;
+
+		}
+		.card .info button::before
+		{
+			content: "";
+			background: transparent;
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
+			left: 0px;
+			border: 4px solid #2fdab8;
+			transition: 0.5s;
+		}
+		.card .info button:hover::before
+		{
+
+			top: -8px;
+			bottom: -8px;
+			right: -8px;
+			left: -8px;
+		}
+		.card:hover .prd_view
+		{
+			top: 200px;
+			left: 0px;
+			opacity: 1;
+
+		}
+		.prd_view:hover
+		{
+			background:#19dde0;
+		}
+
+	</style>
+</head>
+<body>
+<div class="card">
+	<div class="prd_img"><span>NEW</span><img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m2.jpg" height="100%" width="100%" 
+		style="animation: moveit 1s forwards;"></div>
+	<div class="prd_view">Quick view</div>
+	<div class="info">
+		<h3 style="color: #fc636b;">Gabi Full Sleeve Sweatshirt</h3>
+		<p style="padding: 10px 0px;">$45.99 <span style="text-decoration: line-through; padding: 0 10px;color: lightslategray;">$69.71</span></p>
+		<p><button >ADD TO CART</button></p>
+	</div>
+</div>
+</body>
+</html>
