@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{box-sizing: border-box; margin: 0;padding: 0;}
+		.header
+		{
+			height: 300px;
+			width: 100%;
+			background: black;
+			display: flex;
+		}
+		.logo
+		{
+			height: 300px;
+			width: 20%;
+			background: coral;
+		}
+		.cname
+		{
+			height: 300px;
+			width: 80%;
+			background: navajowhite;
+			font-size: 55px;
+			text-align: center;
+			line-height: 300px;
+			text-shadow: 0 0 10px black;
+
+		}
+		.nav
+		{
+			height: 40px;
+			width: 100%;
+			background: lightblue;
+			text-align: center;
+			line-height: 40px;
+
+		}
+		.nav ul 
+		{
+			margin: 0;
+			padding: 0;
+		}
+		.nav ul li a 
+		{
+			text-decoration: none ;
+			background: coral;
+			padding: 7px 20px;
+			font-size: 24px;
+			font-weight: bold;
+			color: white;
+			transition: 1s;
+
+
+
+		}
+		.nav ul li a:hover
+		{
+			background: linear-gradient(red,blue);
+			/*font-size: 35px;*/
+			color: currentColor;
+			padding: 25px 50px;
+			z-index: 1;
+		}
+		.nav ul li
+	 {
+		display: inline;
+		margin-right: 20px;
+		list-style: none;	
+	 }
+
+	  .slider
+	  {
+	  	height: 500px;
+	  	background: url(https://cdn.wpbeginner.com/wp-content/uploads/2019/04/bestwordpressslider.png);
+	  	background-size: 100% 100%;
+	  	z-index: 0;
+
+	  }
+	  .slider img
+	  {
+	  	z-index: -1;
+
+	  }
+
+	  .content
+	  {
+	  	height: auto;
+	  	background: grey;
+	  	display: flex;
+	  	padding: 10px;
+	  }
+	  .content .p1
+	  {
+	  	height: 450px;
+	  	width: 25%;
+	  	background: purple;
+	  	border: 2px solid;
+	  	margin-right:20px ;
+	  }
+	  .footer
+	  {
+	  	height: 300px;
+	  	background: black;
+	  	color: white;
+	  	font-size: 35px;
+	  	text-align: center;
+	  	line-height: 300px;
+	  }
+	</style>
+</head>
+<body>
+<div class="header">
+	<div class="logo">
+		<img src="https://media.graphcms.com/iziIZfUDS2KEG5yznkig" height="100%" width="100%">
+	</div>
+	<div class="cname">IT Company</div>
+</div>
+<div class="nav">
+	<ul>
+		<li><a href="">Home</a></li>
+		<li><a href="">About</a></li>
+		<li><a href="">Service</a></li>
+		<li><a href="">Contact</a></li>
+	</ul>
+</div>
+<div class="slider"></div>
+<div class="content">
+	<div class="p1">
+		<img src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZHVjdHN8ZW58MHx8MHx8&w=1000&q=80" height="100%" width="100%">
+	</div>
+	<div class="p1">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_R_5SPIIVaj68z7jyNfWGnzZm0iO_wZgF_rrgLm4sT02IM4x6g1YREGRNZZzdOonUTTU&usqp=CAU" height="100%" width="100%">
+	</div>
+	<div class="p1">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_R_5SPIIVaj68z7jyNfWGnzZm0iO_wZgF_rrgLm4sT02IM4x6g1YREGRNZZzdOonUTTU&usqp=CAU" height="100%" width="100%">
+	</div>
+	<div class="p1">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT69mMf8-FHVaJtRC8H53ipxUYvZGiXqdpHdA&usqp=CAU" height="100%" width="100%">
+	</div>
+</div>
+<div class="footer">footer</div>
+</body>
+</html>
