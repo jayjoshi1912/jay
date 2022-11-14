@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		p 
+		{
+			height: 50px;
+			width: 80px;
+			border-radius: 40px;
+			background: black;
+			margin: 200px auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			overflow: hidden;
+			color: white;
+
+		}
+		p::after
+		{
+			content: "";
+			height:10px;
+			width: 0%;
+			background: #19cfbc;
+			position: absolute;
+			top: 80%;
+			left: 0;
+			transition: 1s;
+		}
+
+		p:hover::after
+		{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+<p>About</p>
+</body>
+</html>

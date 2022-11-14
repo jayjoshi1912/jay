@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style type="text/css">
+		div
+		{
+			height: 100px;
+			width: 100px;
+			background: black;
+			margin: 200px auto;
+			
+			position: relative;
+			z-index: 1;
+		}
+
+		.fa-truck
+		{
+			font-size: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top:20px ;
+			color: white;
+
+		}
+		div::after
+		{
+			content: "";
+			height: 100px;
+			width: 100px;
+			background: #1ad6cd;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			transform: scale(0);
+			transition: 0.5s;
+		}
+		div:hover::after 
+		{
+
+			transform: scale(1);
+
+
+			
+		
+		}
+	</style>
+</head>
+<body>
+<div>
+	<i class="fa-solid fa-truck"></i>
+</div>
+</body>
+</html>
