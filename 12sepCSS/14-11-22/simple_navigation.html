@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        .main_menu
+        {
+            background: peru;
+
+        }
+        .dropdown
+        {
+            display: none;
+            background: blanchedalmond;
+            list-style: none;
+            text-decoration: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding: 10px ;
+
+        }
+        .menu:hover .dropdown
+        {
+            display: block;
+            
+        }
+        .main_menu .menu 
+        {
+            display: inline;
+            position: relative;
+        }
+        a
+        {
+            text-decoration: none;
+            color: #000;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <ul class="main_menu">
+        <li class="menu"><a href="">Home</a></li>
+        <li class="menu"><a href="">About</a></li>
+        <li class="menu">
+            <a href="">Services</a>
+            <ul class="dropdown">
+                <li><a href="">Service1</a></li>
+                <li><a href="">Service2</a></li>
+                <li><a href="">Service3</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

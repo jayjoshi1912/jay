@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main
+        {
+            height: 150px;
+            width: 150px;
+            border: 12px solid transparent;
+            border-top: 12px solid blue;
+            margin: 100px auto;
+            border-radius: 50%;
+            position: relative;
+            animation: sub1 4s linear infinite;
+        }
+        .sub1
+        {
+            height: 100px;
+            width: 100px;
+            border: 12px solid transparent;
+            border-top: 12px solid green;
+            border-radius: 50%;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            animation: sub2 2s linear infinite;
+        }
+        .sub2
+        {
+            height: 50px;
+            width: 50px;
+            border: 12px solid transparent;
+            border-top: 12px solid grey;
+            border-radius: 50%;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+           
+            animation: sub1 1s linear infinite;
+        }
+        @keyframes sub1 {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+        @keyframes sub2 {
+            from{transform: rotate(360deg);}
+            to{transform: rotate(0deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub1"></div>
+        <div class="sub2"></div>
+    </div>
+</body>
+</html>

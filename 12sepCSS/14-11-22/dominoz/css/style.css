@@ -1,0 +1,416 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+.header
+{
+    height: 100px;
+    width: 100%;
+    /* background: lightblue; */
+    text-align: center;
+    /* line-height: 30px; */
+    display: flex;
+    
+
+}
+
+.header .logo
+{
+    height: 100px;
+    width: 20%;
+    /* background: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header .links  
+{
+    height: 100px;
+    width: 60%; display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background: red; */
+    
+}
+
+.header .links .main .menu
+{
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+
+    
+    
+}
+.header .links .main .menu a
+{
+    color: #026394;
+
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background:#000;
+    z-index: 101;
+    list-style: none;
+    padding: 10px;
+    color: #fff;
+
+}
+
+.menu:hover .dropdown
+{
+    display: block;
+ 
+}
+.header .links a{
+    text-decoration: none;
+    color: black;
+}
+
+.header .downloadbtn
+    {
+        height: 100px;
+        width: 20%;
+        /* background: yellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.header .downloadbtn a{
+        text-decoration: none;
+        background: red;
+        padding: 12px 18px;
+        color: white;
+
+        
+    }
+/* header end */
+
+.ordersection
+{
+    height: auto;
+    background: #026394;
+    display: flex;
+    position: sticky;
+    top: -130px;
+    left: 100px;
+    z-index: 100;
+    
+}
+.ordersection .order
+{
+    height: 400px;
+    width: 35%;
+    /* background:green; */
+    /* border: 2px solid; */
+    padding: 100px 0 0 20px;
+    margin-top: 20px;
+
+
+}
+.ordersection .order .ordernow h1
+{
+    color: white;
+    margin: 10px auto;
+    
+}
+.ordernow
+{
+    /* background: coral; */
+    margin-right: 19px;
+}
+.ordersection .order .ordernow p
+{
+    color:#1380b6;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.ordersection .order .ordernow a
+{
+    background: green;
+    padding: 15px 80px 15px 80px ;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 0px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    
+}
+
+/* coupan offer start */
+
+.Coupons_Offers 
+{
+    height: auto;
+    width: 100%;
+    /* background: lightseagreen; */
+    padding: 100px 0;
+}
+.Coupons_Offers p 
+{
+    background: silver;
+    margin: 0;
+    padding: 10px 20px;
+    
+}
+.Coupons_Offers a
+{
+    text-decoration: none;
+    color: #1380b6;
+    margin-left: 10px;
+}
+.Coupons_Offers .offer
+{
+    height: auto;
+    width: 80%;
+     /* background: coral; */
+     margin: 50px auto;
+}
+.Coupons_Offers .offer .offerImage
+{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid ; */
+    display: flex;
+    padding: 20px;
+    
+}
+.Coupons_Offers .offer h1
+{
+    color: #1380b6;
+}
+.Coupons_Offers .offer .offerImage1
+{
+    height: 250px;
+    width: 50%;
+    /* background: greenyellow; */
+    padding: 20px;
+}
+
+/* Exploer start */
+.Explore
+{
+    height: auto;
+    width: 100%;
+    /* background: goldenrod; */
+
+}
+.Explore h1
+{
+    color: #1380b6;
+     padding: 30px 45px;
+}
+.Explore .Explore_main
+{
+    height: auto;
+    width: 100%;
+    /* background: paleturquoise; */
+    margin:0 auto;
+    padding: 20px;
+    display: flex;
+}
+.Explore .Explore_main .e1
+{
+    height: 350px;
+    width: 25%;
+    border: 2px dotted;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 25px;
+    /* background: yellow; */
+    
+
+}
+.Explore .Explore_main .e1 .E1 
+{
+    height:90% ;
+    width:100%;
+    /* border-top:2px dotted coral; */
+    /* padding: 10px 10px; */
+    text-align: center;
+    /* background: red; */
+    color: #026394;
+    border-bottom: 2PX dotted;
+}
+.Explore .Explore_main .e1 .E2
+{
+    height: 10%;
+    width: 100%;
+    /* background: #026394; */
+    /* border: 2PX dotted ; */
+    margin-top: 10PX;
+    line-height: 40PX;
+    color: #f31414;
+    font-size: 12px;
+
+}
+
+/* phone img start */
+.phone
+{
+    height: auto;
+    width: 100%;
+    background: silver;
+    display: flex;
+}
+.phone .phone_img
+{
+    height: 400px;
+    width: 50%;
+    /* background: purple; */
+}
+.phone .phone_img1
+{
+    height:400px;
+    width: 50%;
+    /* background: #f31414; */
+    padding: 60px 0 0 20px;
+    font-size: 25px;
+    
+}
+.phone .phone_img1 p
+{
+    margin-top:30px ;
+    color:#1380b6;
+
+}
+.phone .phone_img1 h1{
+    color: #026394;
+}
+.phone .phone_img1 .app
+{
+    display: flex;
+    height: auto;
+    width: 80%;
+    margin-top: 40px;
+}
+.phone .phone_img1 .playstore
+{
+    height: 50px;
+    width: 50%;
+    /* margin-top: 30px; */
+    margin-right: 10px;
+    
+}
+.phone .phone_img1 .app_store
+{
+    height:50px ;
+    width: 50%;
+    /* margin-top:20px ; */
+}
+
+/* main text :start */
+
+
+.main_text
+{
+    height: auto;
+    width: 100%;
+    /* background: rosybrown; */
+    padding: 10px;
+
+}
+.main_text h1
+{
+    color:#026394;
+    margin-top: 15px;
+}
+.main_text p
+{
+    color: #1380b6;
+    margin-top: 15px;
+}
+/* main text end */
+
+
+/* button :start */
+.button
+{
+    height: auto;
+    width: 100%;
+    /* background: green; */
+    padding: 10px;
+}
+.button button
+{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+/* button end */
+
+
+/* footer :start */
+.footer
+{
+    height: 500px;
+    width: 100%;
+    background:  #222e3a;
+    position: relative;
+    z-index: 0;
+
+}
+.footer .f1 
+{
+    height: 450px;
+    width: 100%;
+    /* background: yellow; */
+    display: flex;
+
+}
+.footer .f1 .f 
+{
+    height: 450px;
+    width: 16.66%;
+    /* background: #1380b6; */
+    
+}
+.footer .f1 .f .z
+{
+    color: silver;
+    font-size: 19px;
+    font-weight: bold;
+    /* background: red; */
+    
+
+}
+.footer .f1 .f li
+{
+    list-style: none;
+    margin:20px 10px;
+}
+.footer .f1 .f li img
+{
+    margin: 10px 0;
+}
+.footer .f1 .f a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.footer .f2
+{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+
+}
+.footer .f2 .msg
+{
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    font-size: 25px;
+}
+/* footer end */
