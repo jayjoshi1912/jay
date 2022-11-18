@@ -1,0 +1,18 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+.header
+{
+    height: 100px;
+    width: 100%;
+    background: gray;
+    /* display: flex; */
+}
+.header .logo
+{
+    height: 100px;
+    width: 20%;
+    /* background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPDauO0YC8egmPrZ1JN3EAS798a7RtzRAdbw&usqp=CAU); */
+    /* background-size: 100% 100%; */
+    background: red;
+
+}
+
