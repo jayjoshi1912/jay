@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style type="text/css">
+		* {box-sizing: border-box;margin: 0;padding: 0}
+		.card
+		{
+			height: 580px;
+			width: 300px;
+			background:rgba(0, 0, 0, 0.4);
+			margin: 50px auto;
+			border-radius: 30px;
+		}
+		.card .logo
+		{
+			height: 50px;
+			width: 100%;
+/*			background: red;*/
+			position: relative;
+
+
+		}
+		.card .logo i
+		{
+/*			background: silver;*/
+			padding: 7px;
+			border-radius: 50%;
+			position: absolute;
+			top: 10px;
+			left: 75%;
+			box-shadow: 0 0 5px black;
+
+		}
+		.card .logo .fa-bars
+		{
+			position: absolute;
+			top: 10px;
+			left: 90%;
+			
+		}
+		.card .line
+		{
+			height: 3px;
+			width: 90px;
+			background: black;
+			margin: 0 auto;
+			border-radius: 10px;
+		}
+		.card .text
+		{
+			height: 70px;
+			width: 100%;
+/*			background: green;*/
+			padding: 5px 0;
+			color: white;
+			position: relative;
+
+		}
+		.card .text .fa-circle-info
+		{
+			position: absolute;
+			top: 25%;
+			left: 80%;
+			font-size: 40px;
+			color: silver;
+		}
+		.card .circle 
+		{
+			height: 250px;
+			width: 250px;
+			background: black;
+			border-radius: 50%;
+			margin: 0 auto;
+			padding: 20px 22px;
+
+		}
+		.card .circle .sub_circle
+		{
+			height: 200px;
+			width: 200px;
+			background: black;
+			border: 10px solid transparent;
+			border-radius: 50%;
+			border-top: 20px solid green;
+			border-left: 20px solid green;
+			border-bottom:20px solid green ;
+			border-right:20px solid gray ;
+			transform: rotate(-45deg);
+			padding: 5px 4px;
+
+
+		}
+
+		.card .circle .sub_circle .sub2
+		{
+			height: 150px;
+			width: 150px;
+			border: 5px dotted silver;
+			border-radius: 50%;
+		}
+		.card .circle span 
+		{
+			color: silver;
+			position: absolute;
+			top: 30%;
+			left: 30%;
+			transform: rotate(45deg);
+		}
+		.card .circle .span 
+		{
+			font-size: 30px;
+			color: white;
+			font-weight: bold;
+			margin:10px 0;
+		}
+		.card .km
+		{	
+			text-align: center;
+			color: grey;
+
+		}
+		.card .km span 
+		{
+			color: white;
+			font-weight: bold;
+
+		}
+		.card .some_text
+		{
+			height: auto;
+			width: 100%;
+/*			background: coral;*/
+			display: flex;
+		}
+		.card .some_text .icon_text
+		{
+			height: 80px;
+			width: 50%;
+/*			background: green;*/
+			border-right: 2px solid gray;
+
+		}
+		.card .some_text .backtomap
+		{
+			height: 80px;
+			width: 50%;
+/*			background: red;*/
+			text-align: center;
+			line-height: 30px;
+
+
+		}
+		.card .some_text .backtomap .fa-location-dot
+		{
+			background: green;
+			padding: 5px;
+			border-radius: 50%;
+			color: white;
+			margin-top: 10px;
+		}
+		.card .setting
+		{
+			height: 80px;
+			width: 100%;
+/*			background: grey;*/
+			display: flex;
+			position: relative;
+
+		
+
+		}
+		.card .setting .a 
+		{
+			height: 50px;
+			width: 25%;
+			background: black;
+			padding: 4px;
+			color: white;
+			border-radius: 50%;
+			margin-right:20px ;
+			
+			padding: 15px 19px;
+			box-shadow: 0 0 10px black;
+		}
+		.card .setting .a1 
+		{
+			position: absolute;
+			top:50px ;
+			left: 10px;
+		}
+		.card .setting .a2 
+		{
+			position: absolute;
+			top: 50px;
+			left: 80px;
+		}
+		.card .setting .a3 
+		{
+			position: absolute;
+			top: 50px;
+			left: 160px;
+
+		}
+		.card .setting .a4 
+		{
+			position: absolute;
+			top: 50px;
+			left: 240px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="card">
+		<div class="logo">
+			<img src="C:\Users\ADMIN\Downloads\images-removebg-preview (1).png" height="100%" width="30%">
+			<i class="fa-solid fa-user"></i>
+			<i class="fa-solid fa-bars"></i>
+		</div>
+		<div class="line"></div>
+		<div class="text">
+			<h2>Scooter<br>information</h2>
+			<i class="fa-solid fa-circle-info"></i>
+		</div>
+		<div class="circle">
+			<div class="sub_circle">
+				<div class="sub2"></div>
+				<span>battery status</span>
+					<span class="span">80%</span>
+			</div>
+		</div>
+		<div class="km">
+			<p><span>46KM</span>estimated</p>
+		</div>
+		<div class="some_text">
+			<div class="icon_text">
+				<i class="fa-solid fa-battery-half"></i>
+				<span>46KMestimated</span>
+				<p><i class="fa-solid fa-location-dot"></i>
+				<span>pizza san Rafflaele8</span></p>
+				<i class="fa-solid fa-person-walking"></i>
+				<span>150m</span>
+				<i class="fa-solid fa-clock"></i>
+				<span>1 m</span>
+			</div>
+			<div class="backtomap">
+				<i class="fa-solid fa-location-dot"></i>
+				<p>back to map</p>
+			</div>
+		</div>
+		<div class="setting">
+			<i class="fa-solid fa-gear a"></i>
+			<p class="a1">settings</p>
+			<i class="fa-solid fa-wrench a"></i>
+			<p class="a2">Report</p>
+			<i class="fa-solid fa-share a"></i>
+			<p class="a3">share</p>
+			<i class="fa-solid fa-hourglass-start a"></i>
+			<p class="a4">time</p>
+		</div>
+	</div>
+</body>
+</html>
