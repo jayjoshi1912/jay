@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		* {margin: 0}
+		.prd_card
+		{
+			height: 320px;
+			width: 200px;
+/*			background: gray;*/
+			margin: 10px 15px;
+			box-shadow: 0 0 20px black;
+			position: relative;
+
+
+
+
+		}
+		.prd_card .img
+		{
+			height:200px ;
+			width: 200px;
+/*			background: gold;*/
+			position: relative;
+
+		}
+		
+		.prd_card .view
+		{
+			height: 50px;
+			width: 200px;
+			background: blue;
+			text-align: center;
+			line-height: 50px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			transition: 1s;
+			
+		}
+		.prd_card .img:hover .view
+		{
+			opacity: 1;
+			top: 150px;
+		}
+		.prd_card .info
+		{
+			height: 120px;
+			width: 200px;
+			background:coral;
+			text-align: center;
+			line-height: 30px;
+		}
+
+		.prd_card .info button
+		{
+			height: 40PX;
+			width: 100px;
+			background: transparent;
+			position: relative;
+		}
+
+		.prd_card .info button::before
+		{
+			content: "";
+			background: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			border: 4px solid coral;
+			transition: 0.5s;
+
+		}
+		.prd_card .info button:hover::before
+		{
+			top: -8px;
+			left: -8px;
+			right: -8px;
+			bottom: -8px;
+		}
+
+		/*.main 
+		{
+			height: 200px;
+			width: 200px;
+			position: relative;
+		}
+*/
+		.front,.back
+		{
+			height: 200px;
+			width: 200px;
+			background: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			backface-visibility: hidden;
+			transition: 1s;
+
+		}
+		.front
+		{
+			transform: rotateY(180deg);
+		}
+		.back 
+		{
+			transform: rotateY(0deg);
+		}
+
+		.img:hover .front
+		{
+			transform: rotateY(0deg);
+
+		}
+
+		.img:hover .back 
+		{
+			transform: rotateY(180deg);
+		}
+		.container
+		{
+			display: flex;
+			flex-wrap: wrap;
+			border: 1px solid;
+			padding: 50px 200px;
+			background: lightblue;
+
+		}
+
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<!-- ---prd start --- -->
+		<div class="prd_card">
+			<div class="img">
+				<div class="main">
+				<div class="front">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="back">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="view">Quick View</div>
+				
+			</div>
+			</div>
+			
+			
+			<div class="info">
+				<p>Formal Blue Shirt</p>
+				<p>$45.99 <del>$69.71</del></p>
+				<button>ADD TO CART</button>
+			</div>
+
+		</div>
+		<!-- ---prd end --- -->
+
+		<!-- ---prd start --- -->
+		<div class="prd_card">
+			<div class="img">
+				<div class="main">
+				<div class="front">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="back">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="view">Quick View</div>
+				
+			</div>
+			</div>
+			
+			
+			<div class="info">
+				<p>Formal Blue Shirt</p>
+				<p>$45.99 <del>$69.71</del></p>
+				<button>ADD TO CART</button>
+			</div>
+
+		</div>
+		<!-- ---prd end --- -->
+		<!-- ---prd start --- -->
+		<div class="prd_card">
+			<div class="img">
+				<div class="main">
+				<div class="front">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="back">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="view">Quick View</div>
+				
+			</div>
+			</div>
+			
+			
+			<div class="info">
+				<p>Formal Blue Shirt</p>
+				<p>$45.99 <del>$69.71</del></p>
+				<button>ADD TO CART</button>
+			</div>
+
+		</div>
+		<!-- ---prd end --- -->
+		<!-- ---prd start --- -->
+		<div class="prd_card">
+			<div class="img">
+				<div class="main">
+				<div class="front">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="back">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="view">Quick View</div>
+				
+			</div>
+			</div>
+			
+			
+			<div class="info">
+				<p>Formal Blue Shirt</p>
+				<p>$45.99 <del>$69.71</del></p>
+				<button>ADD TO CART</button>
+			</div>
+
+		</div>
+		<!-- ---prd end --- -->
+		<!-- ---prd start --- -->
+		<div class="prd_card">
+			<div class="img">
+				<div class="main">
+				<div class="front">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="back">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="view">Quick View</div>
+				
+			</div>
+			</div>
+			
+			
+			<div class="info">
+				<p>Formal Blue Shirt</p>
+				<p>$45.99 <del>$69.71</del></p>
+				<button>ADD TO CART</button>
+			</div>
+
+		</div>
+		<!-- ---prd end --- -->
+		<!-- ---prd start --- -->
+		<div class="prd_card">
+			<div class="img">
+				<div class="main">
+				<div class="front">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="back">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="view">Quick View</div>
+				
+			</div>
+			</div>
+			
+			
+			<div class="info">
+				<p>Formal Blue Shirt</p>
+				<p>$45.99 <del>$69.71</del></p>
+				<button>ADD TO CART</button>
+			</div>
+
+		</div>
+		<!-- ---prd end --- -->
+		<!-- ---prd start --- -->
+		<div class="prd_card">
+			<div class="img">
+				<div class="main">
+				<div class="front">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="back">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="view">Quick View</div>
+				
+			</div>
+			</div>
+			
+			
+			<div class="info">
+				<p>Formal Blue Shirt</p>
+				<p>$45.99 <del>$69.71</del></p>
+				<button>ADD TO CART</button>
+			</div>
+
+		</div>
+		<!-- ---prd end --- -->
+		<!-- ---prd start --- -->
+		<div class="prd_card">
+			<div class="img">
+				<div class="main">
+				<div class="front">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="back">
+					<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				</div>
+				<div class="view">Quick View</div>
+				
+			</div>
+			</div>
+			
+			
+			<div class="info">
+				<p>Formal Blue Shirt</p>
+				<p>$45.99 <del>$69.71</del></p>
+				<button>ADD TO CART</button>
+			</div>
+
+		</div>
+		<!-- ---prd end --- -->
+
+	</div>
+</body>
+</html>
