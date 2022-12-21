@@ -1,0 +1,141 @@
+@media(min-width: 360px)
+{
+    .header{ grid-template-columns: 1fr;}
+    .header .phone{display: none;}
+    .header .icon{display: none;}
+    .header .logo .fa-bars{display: block;}
+    .nav .main_menu .menu{margin-right: 5px;}
+    .nav .main_menu{display: none;}
+    .slider{padding-left: 0px;padding-top: 120px;grid-template-rows:300px ;}
+    .slider .s_text{width: 100%; height: 200px;line-height:2em;background-color: rgba(127, 255, 212,0.7);padding: 0px 20px;margin-bottom: 50px;}
+    .slider .s_text span{font-size: 16px;}
+    .slider .s_text .s_span{font-size: 10px;}
+    .slider .s_text p{font-size: 30px;margin-bottom: 10px;margin-top: 0px;letter-spacing: 3px;}
+    .sub_content{padding: 20px 0px;grid-template-columns: 1fr;}
+    .sub_content .QUALITYFOODS{margin-top: 20px;}
+    .c_pizza4 .c_pizzasub .pizza4 .pizzaimg{padding: 60px 20px 20px 20px;}
+    .c_pizzasub{grid-template-columns: 1fr;}
+    .c_pizza4 .c_pizzasub .pizza4 .pizzaimg{padding: 60px 30px 20px 30px;}
+    .con_text{padding: 0px 0px;}
+    .people_img{grid-template-columns: 3fr 7fr;}
+    .con_text .co_textsub{grid-template-columns: 1fr;   }
+    .con_text .co_textsub .left_text{padding: 0px 30px;}
+    .con_text .co_textsub .right_text{margin-top: 20px; padding: 0px;}
+    .discover h1{font-size: 25px;letter-spacing: 5px;word-spacing: 5px;}
+    .c_dom{ padding: 0px 50px;}
+    .c_dom .sub_dom{grid-template-columns: 1fr;}
+    .c_dom .sub_dom .pizzas{padding: 50px 50px;}
+    .something .sub_something .part2 .text4 .con_text12{padding: 0;}
+    .something .sub_something .part1 .block{padding: 0;margin: auto;}
+    .something .sub_something .part1 .line{font-size: 30px;letter-spacing: 3px;}
+    .something .sub_something .part2{padding: 0;}
+    .something .sub_something .part2 .text4 {grid-template-columns: 1fr;}
+    .footer_up{padding: 0;}
+    .footer_up .sub_footer p{letter-spacing: 0px;word-spacing: 0px; font-size: 25px;}
+    .footer_down{padding: 0;}
+    .footer_down .sub_footdown li{margin-right: 5px;}
+}
+@media(min-width: 500px)
+{
+    .sub_content{padding: 20px 50px;}
+    .c_pizza4 .c_pizzasub .pizza4 .pizzaimg{padding: 60px 120px 20px 120px;  }
+    .people_img{grid-template-columns: 2fr 8fr;}
+    .c_dom{ padding: 0px 10px;}
+    .c_dom .sub_dom{grid-template-columns: 1fr 1fr;gap: 10px;}
+    .c_dom .sub_dom .pizzas{padding: 10px 20px; }
+    .something .sub_something .part2{padding: 0%; margin-top: 20px;}
+    .something .sub_something .part2 .text4 {grid-template-columns: 1fr 1fr;}
+    .footer_up{padding: 0;}
+    .footer_up .sub_footer p{letter-spacing: 0px;word-spacing: 2px;font-size: 30px;}
+    .footer_down .sub_footdown li{margin-right: 10px;}
+}
+@media(min-width: 700px)
+{
+    .header{ grid-template-columns: 1fr;}
+    .header .phone{display: none;}
+    .header .icon{display: none;}
+    .header .logo .fa-bars{display: none;}
+    .nav .main_menu{display: block;}
+    .slider{padding-left: 0px; padding-top: 100px;grid-template-rows:500px ;}
+    .slider .s_text{width: 100%;padding: 0px 0px;margin-bottom: 100px;}
+    .slider .s_text span{font-size: 20px;}
+    .slider .s_text .s_span{font-size: 10px;}
+    .slider .s_text p{font-size: 30px;margin-bottom: 20px;margin-top: 10px; }
+    .sub_content{padding: 20px 10px;grid-template-columns: 1fr 1fr 1fr;}
+    .sub_content .QUALITYFOODS{margin: 0px 15px;}
+    .sub_content .QUALITYFOODS p{font-size: 20px;}
+    .c_pizza4{padding: 0px 40px; }
+    .c_pizzasub{grid-template-columns: 1fr 1fr;}
+    /* .c_pizza4 .c_pizzasub .pizza4{margin: 10px 0px;} */
+    .c_pizza4 .c_pizzasub .pizza4 .pizzaimg{padding: 60px 70px 20px 70px;}
+    .con_text{padding: 0px 150px;}
+    .con_text .co_textsub{grid-template-columns: 1fr;}
+    .con_text .co_textsub .left_text{padding: 0px 30px;}
+    .con_text .co_textsub .right_text{margin-top: 20px; padding: 5px;}
+    .people_img{grid-template-columns: 1fr 9fr;}
+    .discover h1{font-size: 40px;letter-spacing: 10px;}
+    .c_dom{ padding: 0px 10px;}
+    .c_dom .sub_dom{grid-template-columns: 1fr 1fr 1fr 1fr;gap: 5px;}
+    .c_dom .sub_dom .pizzas{padding: 10px 10px; }
+    .something .sub_something .part2 .text4 {grid-template-columns: 1fr 1fr;}
+    .footer_up{padding: 10px 20px;}
+    .footer_up .sub_footer p {letter-spacing: 2px;font-size: 30px;}
+    .footer_down .sub_footdown li{margin-right: 20px;}
+    .footer_down{padding: 0px 20px;}
+}
+@media(min-width: 900px)
+{
+    .header{ grid-template-columns: 2fr 6fr 2fr;}
+    .header .phone{display: block;}
+    .header .icon{display: block;}
+    .slider{padding-left: 0px;grid-template-rows:600px;padding-top: 130px;}
+    .slider .s_text .s_span{font-size: 17px;}
+    .slider .s_text p{font-size: 30px; margin-bottom: 30px;margin-top: 10px;}
+    .slider .s_text{width: 100%;padding: 0px 0px;line-height: 2em;margin-bottom: 200px;}
+    .slider .s_text span{font-size: 20px;}
+    .slider .s_text .s_span{font-size: 10px;}
+    .slider .s_text p{font-size: 40px;letter-spacing: 10px;}
+    .sub_content{padding: 20px 20px;}
+    .sub_content .QUALITYFOODS{margin: 0px 15px;}
+    .sub_content .QUALITYFOODS p{font-size: 25px;}
+    .c_pizzasub{grid-template-columns: 1fr 1fr 1fr 1fr;}
+    .c_pizza4{padding: 0px 0px;}
+    .c_pizza4 .c_pizzasub .pizza4 .pizzaimg{padding: 60px 30px 20px 30px;}
+    .c_pizza4 .c_pizzasub .pizza4{margin: 0px 0px;}
+    .con_text .co_textsub{grid-template-columns: 1fr 1fr;}
+    .con_text .co_textsub .left_text{padding: 0px 0px;}
+    .con_text .co_textsub .right_text{margin-top: 0px; padding: 0px;}
+    .people_img{grid-template-columns: 2fr 8fr;}
+    .c_dom{ padding: 0px 50px;}
+    .c_dom .sub_dom{grid-template-columns: 1fr 1fr 1fr 1fr;gap: 0px;}
+    .c_dom .sub_dom .pizzas{padding: 10px 20px;}
+    .something .sub_something{grid-template-columns: 1fr ;grid-template-rows: 300px;}
+    .something .sub_something .part2 .text4 .con_text12{padding: 0px 20px;}
+    .something .sub_something .part2 .text4 {grid-template-columns: 1fr 1fr 1fr 1fr;}
+    .footer_up .sub_footer p {letter-spacing: 5px;font-size: 39px;}
+}
+@media(min-width: 1200px)
+{
+    .header{ grid-template-columns: 2fr 6fr 2fr;}
+    .header .phone{display: block;}
+    .header .icon{display: block;}
+    .slider{padding-left: 0px;}
+    .slider .s_text .s_span{font-size: 17px;}
+    .slider .s_text p{font-size: 30px;}
+    .slider .s_text{width: 100%;}
+    .slider .s_text span{font-size: 20px;}
+    .slider .s_text p{font-size: 60px;}
+    .slider .s_text .s_span{font-size: 18px;}
+    .sub_content{padding: 20px 50px;}
+    .sub_content .QUALITYFOODS{margin: 0px 20px;}
+    .sub_content .QUALITYFOODS p{font-size: 30px;}
+    .c_pizza4{padding: 0px 60px;}
+    .c_pizza4 .c_pizzasub .pizza4 .pizzaimg{padding: 60px 50px 20px 50px;}
+    .con_text .co_textsub{grid-template-columns: 1fr 1fr;}
+    .con_text .co_textsub .right_text{margin-top: 0px; padding: 0px;}
+    .people_img{grid-template-columns: 1fr 9fr;}
+    .c_dom{ padding: 0px 60px;}
+    .c_dom .sub_dom{grid-template-columns: 1fr 1fr 1fr 1fr;}
+    .c_dom .sub_dom .pizzas{padding: 10px 40px;}
+    .something .sub_something{grid-template-columns: 1fr ;grid-template-rows: 300px;}
+}

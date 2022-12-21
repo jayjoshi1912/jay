@@ -1,0 +1,217 @@
+@media(max-width:1400px)
+{
+    .round_bottle{padding: 0 30px ;}
+    .bottle4{padding: 20px 10px;}
+
+    
+}
+@media(max-width:1300px)
+{
+    .LIQUORSTORE .nav .logo{width: 30%;} 
+    .LIQUORSTORE .nav .menu_bar{width: 70%;}
+    .content1 .nav .logo h1{font-size: 20px;}
+    .content1 .text{width: 500px;height: 250px;margin-top:  80px;}
+    .content1 .text p{font-size: 50px;}
+    .content1 .text .shop{margin: 0 10px;}
+    .round_bottle .r_b .round{height: 300px;padding-right: 180px; width: 16.66%;}
+    .round_bottle .r_b .round p{margin:10px 25px; height: 50px;width: 110px;}
+    .round_bottle{padding: 0 30px ;}
+    .bottle4{padding: 20px 0px;}
+    .bottle4 .main_bottle{width: 100%;}
+    .people .p_img .p_text .down_text .p_photo{width: 40%;}
+    .people .p_img .p_text .down_text .p_photo img{margin: 30px 25px;}
+    .people .p_img .p_text .down_text .down_text1{width: 60%;}
+    .blog_img{padding: 0px 30px;}
+}
+@media(max-width:1200px)
+{
+    .icon_header .telegram{width: 15%;}
+    .icon_header .phone .fa-phone{margin-right: 0px;}
+    .icon_header .blank2{width: 0%;}
+    .text_icon .online .right span{font-size: 14px;}
+    .text_icon .online .left{font-size: 45px;}
+    .content1 .text{width: 400px;height: 200px;margin-top: 90px; margin-left: 300px;}
+    .content1 .text .shop{margin: 0 10px;}
+    .content1 .text p{font-size: 40px;}
+    .photo_text{padding: 20px 20px;}
+    .photo_text .glass{width: 100%;}
+    .photo_text .g_text{padding-left: 20px;width: 100%;}
+    .photo_text .g_text h1{font-size: 35px;}
+    .photo_text .g_text h2{font-size: 20px;}
+    .round_bottle .r_b .round {width: 33.33%;}
+    .round_bottle .r_b {width: 80%;margin-left: 100px;}
+    .round_bottle .r_b .round .r_b1{margin-left: 50px;}
+    .round_bottle .r_b .round p{margin:8px 0px; margin-left: 80px; height: 50px;width: 110px;}
+    .bottle4 .main_bottle .bottle1{margin-right: 10px;}
+    .people .p_img .p_text{width: 30%;}
+    .people .p_img .p_text .up_text{font-size: 15px;line-height: 2em;}
+    .people .p_img .p_text .down_text .p_photo{width: 30%;}
+    .people .p_img .p_text .down_text .p_photo img{margin: 40px 0px;height: 70px;width: 70px;}
+    .people .p_img .p_text .down_text .down_text1{width: 70%;padding: 55px 0px;}
+    .people .p_img .p_text .down_text .down_text1 p {font-size: 19px;}
+    .people .p_img .p_text .down_text .down_text1 span{font-size: 13px;}
+    .blog_img{padding: 0px 0px;}
+    .blog_img .center .cen_1{width: 100%;padding: 0px 100px;margin-top: 10px;}
+    .footer .footer_up .f_sub1 h2 a{font-size: 18px;}
+    .footer .footer_up .f_sub1{padding: 5px;}
+    .footer .footer_up .f_sub1 .f_under .f_last .f_icon{width: 10%;padding-top:33px;}
+    .footer .footer_up .f_sub1 .f_under .f_last .f_text{width: 90%;}
+    .footer .footer_up .f_sub1 .f_under .f_last span{font-size: 10px;text-align: center;margin-left: 10px;}
+
+    
+    
+}
+
+@media(max-width:900px)
+{
+    .icon_header .blank1{width: 0%;}
+    .icon_header .midblank{width: 0%;}    
+    .icon_header .icons{word-spacing: 3px;width: 33.33%;}
+    .icon_header .phone{font-size: 11px;width: 50%;}
+    .icon_header .telegram{font-size: 12px;width: 50%;}
+    .icon_header .SIGNUP{font-size: 10px;width: 33.33%;}
+    .icon_header .singin{font-size: 10px;width: 33.33%;}
+    .icon_header .blank2{width: 0%;}
+    .LIQUORSTORE .nav .logo h1{font-size: 20px;}  
+    .LIQUORSTORE .nav .menu_bar .main .menu{padding: 26px 10px; margin-right:0 ;} 
+    .content1 .nav .logo h1{font-size: 17px;}
+    .content1 .nav .menubar .option .menu{margin-right: 25px;}
+    .content1 .text{width: 350px;height: 250px;margin-top: 110px; margin-left: 220px;}
+    .content1 .text p{font-size: 42px;}
+    .content1 .text .shop{margin: 0 10px;}
+    .text_icon .online{width: 100%;}
+    .round_bottle .r_b {width: 90%;margin-left: 40px;}
+    .round_bottle .r_b .round p{margin:8px 0px; margin-left: 80px; height: 50px;width: 110px;}
+    .bottle4 .main_bottle .bottle1 .bot_text h2{font-size: 16px;}
+    .happy_bg .HappyClients{left: 20%;}
+    .people .p_img{padding-left: 140px;}
+    .people .p_img .p_t3{display: none;}
+    .people .p_img .p_text .down_text .p_photo{width: 100%;height: 100px;}
+    .people .p_img .p_text .down_text .down_text1{width: 100%;height: 50px;padding: 10px 0px ;padding-left: 50px;}
+    .people .p_img .p_text .down_text .p_photo img{margin: 0px 27%;height: 100px;width: 100px;}
+    .people .p_img .p_text .up_text{font-size: 14px;line-height: 1.5em;}
+    .blog_img .center .cen_1{width: 100%;padding: 0px 70px;}
+    .footer .footer_up .f_sub1{width: 100%;padding: 0px 50px;}
+    .footer .footer_down{padding: 25px 40px;}
+}
+@media(max-width:700px)
+{
+    .LIQUORSTORE .nav .menu_bar .main .menu{font-size: 9px; padding: 23px 5px;}
+    .LIQUORSTORE .nav .logo h1{font-size: 16px;}  
+    .content1 .nav .menubar .option{display: none;}
+    .content1 .nav .menubar .fa-bars{display: block;}
+    .content1 .nav .logo{width: 33.33%;}
+    .content1 .nav .menubar{justify-content: center; width: 33.33%;}
+    .content1 .nav .btn{justify-content: center;width: 33.33%;}
+    .content1 .text{width: 300px;height: 200px;margin-top: 110px; margin-left: 150px;}
+    .content1 .text p{font-size: 42px;}
+    .content1 .text .shop{margin: 0 10px;}
+    .round_bottle .r_b .round {width: 100%;}
+    .round_bottle .r_b .round p{margin-left: 60px;}
+    .round_bottle .r_b {width: 50%;margin-left: 150px;}
+    .round_bottle .r_b .round .r_b1{margin-left: 30px;}
+    .bottle4 .main_bottle .bottle1 .bot_text h2{font-size: 11px;}
+    .bottle4 .main_bottle .bottle1{width: 40%;margin-left: 25px;}
+    .happy_bg .HappyClients{width: 300px;}
+    .people .p_img{padding-left: 130px;}
+    .people .p_img .p_text{width: 50%;margin:20px 20px;}
+    .people .p_img .p_t2{display: none;}
+    .people .p_img .p_t3{display: none;}
+    .people .p_img .p_text .up_text{font-size: 12px;line-height: 1.5em;}
+    .people .p_img .p_text .down_text .p_photo img{margin: 0px 22%;height: 100px;width: 100px;}
+    .people .p_img .p_text .down_text .down_text1{padding: 0px; text-align: center;}
+    .blog_img .center .cen_1{width: 100%;padding: 0px 50px;}
+    .footer .footer_up .f_sub1{padding: 0px 30px;}
+}
+@media(max-width:500px)
+{
+    .LIQUORSTORE .bar_line{display: block;}
+    .LIQUORSTORE .nav .logo{display: none;}
+    .LIQUORSTORE .nav .menu_bar{display: none;}
+    .content1 .nav .logo{width: 60%}
+    .content1 .nav .menubar{ width: 20% ;position: absolute;left: 80%;}
+    .content1 .nav .btn{width: 20%;position: absolute;left: 60%;}
+    .content1 .text{width: 300px;height: 200px;margin-top: 110px; margin-left: 100px;}
+    .content1 .text p{font-size: 42px;}
+    .content1 .text .shop{margin: 0 10px}; 
+    .photo_text .g_text h2{margin: 20px 0;}
+    .round_bottle{padding: 0 0px ;margin-top: 200px;}
+    .round_bottle .r_b .round {width: 100%;}
+    .bottle4 .main_bottle .bottle1{width: 100%;}
+    .bottle4 .main_bottle{padding-left: 0;}
+    .bottle4 .main_bottle .bottle1{margin-right: 0px;margin-left: 0;}
+    .bottle4 .main_bottle .bottle1 .bot_text h2{font-size: 22px;}
+    .people .p_img .p_text{width: 100%;}
+    .people .p_img{padding-left: 40px;}
+    .people .p_img .p_text .up_text .fa-quote-right{padding: 13px;top: -20px;font-size: 13px;}
+    .people .p_img .p_text .up_text{font-size: 18px;line-height: 1.5em;}
+    .people .p_img .p_text .down_text .p_photo img{margin: 0px 35%;height: 100px;width: 100px;}
+    .people .p_img .p_text .down_text .down_text1{padding: 0px; text-align: center;}
+    .blog_img .center .cen_1{width: 100%;padding: 0px 0px;}
+    .footer .footer_up .f_sub1{padding: 0px 20px;}
+    .footer .footer_down{padding: 20px 20px;}
+
+}
+@media(max-width:400px)
+{
+    .content1 .text{width: 205px;height: 150px;margin-top: 110px; margin-left: 80px;}
+    .content1 .text p{font-size: 32px;}
+    .content1 .text .shop{margin: 0 10px;}
+    .text_icon .online .right span{font-size: 8px;} 
+    .text_icon .online .right p{font-size: 14px;}
+    .photo_text .g_text h1{font-size: 20px;}
+    .photo_text .g_text h2{font-size: 11px;}
+    .photo_text .g_text p{font-size: 10px;}
+    .round_bottle{margin-top:-150px }
+    .round_bottle .r_b .round{margin-right: 50px;}
+    .round_bottle .r_b .round .r_b1{margin-left: 0px;}
+    .round_bottle .r_b .round p{margin-left: 40px;}
+    .taste .t1 h1{font-size: 35px;margin-left: 30px;}
+    .taste .t1 span{margin:  0 ; font-size: 15px; margin-left: 60px;}
+    .happy_bg .HappyClients{width: 250px;height: 150px;left: 16%;}
+    .people .p_img .p_text .up_text{font-size: 17px;line-height: 1.2em;}
+    .people .p_img .p_text .up_text .fa-quote-right{padding: 11px;top: -20px;font-size: 11px;}
+    .people .p_img .p_text .down_text .p_photo img{margin: 0px 25%;height: 100px;width: 100px;}
+    .blog_img .center .cen_1 .cen_img{background-size: 150% 100%;}
+    .blog_img .center .cen_1 .cen_img1{background-size: 150% 100%;}
+    .blog_img .center .cen_1 .cen_img2{background-size: 150% 100%;}
+    .blog_img .center .cen_1 .cen_img3{background-size: 150% 100%;}
+}
+@media(max-width:360px)
+{
+    
+    .icon_header .telegram{font-size: 8px;}
+    .content1 .nav .menubar .fa-bars{font-size: 20px;}
+    .content1 .nav{height: 50px;}
+    .content1 .nav .logo{height: 50px;}
+    .content1 .nav .menubar{height: 50px;}
+    .content1 .nav .btn{height: 50px;}
+    .content1 .nav .btn .fa{margin-right: 20px;}
+    .content1 .text{width: 205px;height: 130px;margin-top: 60px; margin-left: 40px;}
+    .content1 .text p{font-size: 22px;}
+    .content1 .text .shop{margin: 0 10px;}
+    .text_icon .online .right span{font-size: 7px;} 
+    .text_icon .online .right p{font-size: 10px;}
+    .photo_text{padding: 20px 0px;}
+    .photo_text .g_text h1{font-size: 14px;}
+    .photo_text .g_text h2{font-size: 10px;}
+    .photo_text .g_text p{font-size: 10px;}
+     .round_bottle{margin-top:0px }
+    .photo_text .glass{width: 100%; height: 300px;}
+    .round_bottle .r_b .round .r_b1{margin-left: -30px;}
+    .round_bottle .r_b .round p{margin-left: 0px;}
+    .taste .t1 h1{font-size: 25px;margin-left: 30px;}
+    .taste .t1 span{margin:0; font-size: 15px; margin-left: 40px;}
+    .bottle4{margin-left: 0px;}
+    .happy_bg .HappyClients{width: 210px;height: 140px;left:15%;top: 30%;}
+    .happy_bg .HappyClients p{font-size: 25px;}
+    .people .p_img{padding-left: 0px;}
+    .people .p_img .p_text .up_text{font-size: 17px;line-height: 1em;}
+    .people .p_img .p_text .down_text .p_photo img{margin: 0px 23%;height: 100px;width: 100px;}
+    .blog_img .center .cen_1 .cen_img{background-size: 150% 100%;}
+    .blog_img .center .cen_1 .cen_img1{background-size: 150% 100%;}
+    .blog_img .center .cen_1 .cen_img2{background-size: 150% 100%;}
+    .blog_img .center .cen_1 .cen_img3{background-size: 150% 100%;}
+    .blog_img .center .cen_1 .cen_text .cen_text1 .cen_h2 a{font-size: 18px;}
+    .taste .t1 .blog{margin-left: 80px;}
+}
