@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    name: <input type="text" name="" id="nm" onblur="click1()" >
+    <span id="nmErr"></span>
+    
+    <br><br>
+    email: <input type="text" name="" id="em" onblur="click1()">
+    <sapn id="emErr"></sapn>    
+    <br><br>
+    mobile: <input type="text" name="" id="mb" onblur="click1()">
+    <span id="mbErr"></span>
+    <br><br>
+
+   
+
+    <script>
+       var name1 = document.getElementById('nm');
+       var email = document.getElementById('em');
+       var mobile = document.getElementById('mb');
+
+       var nmspan = document.getElementById('nmErr');
+       var emspan = document.getElementById('emErr');
+       var mbspan = document.getElementById('mbErr');
+      
+    
+      function click1()
+      {
+        if(name1.value == "")
+        {
+            nmspan.innerHTML="* Name is Requred..!"
+            nmspan.style.color="red";
+            name1.style.border= "2px solid red";
+        }
+        else
+        {
+            nmspan.innerHTML="";
+            name1.style.border= "2px solid green";
+        }
+
+        if(email.value == "")
+        {
+            emspan.innerHTML="* Email is Requred..!"
+            emspan.style.color="red";
+            email.style.border= "2px solid red";
+        }
+        else
+        {
+            emspan.innerHTML="";
+            email.style.border= "2px solid green";
+        }
+
+        if(mobile.value == "")
+        {
+            mbspan.innerHTML="* mobile is Requred..!"
+            mbspan.style.color="red";
+            mobile.style.border= "2px solid red";
+        }
+        else
+        {
+            mbspan.innerHTML="";
+            mobile.style.border= "2px solid green";
+        }
+      }
+       
+    </script>
+</body>
+</html>

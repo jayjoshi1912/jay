@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" name="" id="inp" onkeypress=" copy()"> -->
+    <input type="text" name="" id="inp" onkeyup=" copy()">
+    <textarea name="" id="inp1" cols="30" rows="10"></textarea>
+    <button onclick="copy()">copy</button>
+
+    <script>
+     text1 =   document.getElementById('inp');
+     console.log(text1);
+     Text2 =  document.getElementById('inp1');
+     console.log(Text2);
+
+     function copy()
+     {
+        console.log(Text2.innerHTML = text1.value);
+     }
+
+    </script>
+    
+</body>
+</html>

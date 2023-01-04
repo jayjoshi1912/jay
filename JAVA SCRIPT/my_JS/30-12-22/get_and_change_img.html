@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="" alt="" height="200px" width="200px" id="img">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDzsPzMkiB3y_oIi5m5LxTAeR8C3CmPoEljw&usqp=CAU" height="200px" width="200px" alt="" id="img1">
+    <!-- <button onmouseenter="test()">change</button> -->
+    <button onclick="test()">change</button>
+
+    <script>
+        var img = document.getElementById('img');
+        var img1 = documnet.getElementById('img1');
+
+        function test()
+        {
+            img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzIcZ8yVtS7KiVRutHDSW28jjhrPCu6pgDpg&usqp=CAU";
+        }
+        img1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDzsPzMkiB3y_oIi5m5LxTAeR8C3CmPoEljw&usqp=CAU";
+    </script>
+
+</body>
+</html>

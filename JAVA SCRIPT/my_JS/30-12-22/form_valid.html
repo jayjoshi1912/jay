@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onsubmit="return validateform()">
+    name: <input type="text" name="" id="nm" value=""><br><br>
+    email: <input type="text" name="" id="em"><br><br>
+    mobile:<input type="text" name="" id="mb"><br><br>
+
+
+    <!-- <input type="submit" name="" id="" onclick="return validateform()"> -->
+    <input type="submit" name="" id="">
+        </form>
+    <script>
+      
+        var name1 = document.getElementById('nm');
+        var email = document.getElementById('em');
+        var mobile = document.getElementById('mb');
+        
+        console.log(name1);
+        console.log(name1.value);
+
+        function validateform()
+        {
+            
+            if(name1.value == "")
+            {
+             alert('name is required...!');
+             return false;
+            }
+
+            if(email.value == "")
+            {
+             alert('email is required...!');
+             return false;
+            }
+
+            if(mobile.value == "")
+            {
+             alert('mobile is required...!');
+             return false;
+
+            }
+        } 
+    </script>
+</body>
+</html>

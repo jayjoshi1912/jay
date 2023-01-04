@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    name: <input type="text" name="" id="nm" >
+    <span id="nmErr"></span>
+    
+    <br><br>
+    email: <input type="text" name="" id="em" >
+    <sapn id="emErr"></sapn>    
+    <br><br>
+    mobile: <input type="text" name="" id="mb">
+    <span id="mbErr"></span>
+    <br><br>
+
+    <button onclick="click1()">sing up</button>
+
+    <script>
+       var name1 = document.getElementById('nm');
+       var email = document.getElementById('em');
+       var mobile = document.getElementById('mb');
+
+       var nmspan = document.getElementById('nmErr');
+       var emspan = document.getElementById('emErr');
+       var mbspan = document.getElementById('mbErr');
+      
+    
+      function click1()
+      {
+        if(name1.value == "")
+        {
+            nmspan.innerHTML="* Name is Requred..!"
+            nmspan.style.color="red";
+        }
+        else
+        {
+            nmspan.innerHTML="";
+        }
+
+        if(email.value == "")
+        {
+            emspan.innerHTML="* Email is Requred..!"
+            emspan.style.color="red";
+        }
+        else
+        {
+            emspan.innerHTML="";
+        }
+
+        if(mobile.value == "")
+        {
+            mbspan.innerHTML="* mobile is Requred..!"
+            mbspan.style.color="red";
+        }
+        else
+        {
+            mbspan.innerHTML="";
+        }
+      }
+       
+    </script>
+</body>
+</html>
