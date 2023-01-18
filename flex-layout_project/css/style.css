@@ -133,11 +133,10 @@ body
     margin-right: 30px;
     position: relative;
     padding: 30px 0;
-    background: #01d28e;
 }
 .content1 .nav .menubar .option .menu a{
     color: silver;
-    background: coral;
+
 }
 .content1 .nav .menubar .option .menu a:hover{
     color: #a23f25;
@@ -153,6 +152,7 @@ body
     padding-left: 20px;
     height: 200px;
     display: none;
+    z-index: 100;
 }
 .content1 .nav .menubar .option .menu .submenu .sub1{
     margin-top: 20px;
