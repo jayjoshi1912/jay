@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .hide{
+            visibility: hidden;
+        } */
+    </style>
+</head>
+<body>
+    <center>
+    <form action="">
+        
+        <table border="5" cellspacing="5px" cellpadding="5px">
+            <th colspan="2">Hotel Managment Form</th>
+            <tr>
+                <td>Choice of booking</td>
+                <td><select name="" id="choice" onclick="chk(choice.value)" >
+                    <option value="" hidden>Select Any One</option>
+                    <option>Full day booking</option>
+                    <option>Half day booking</option>
+                    <option>Hourly booking</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>User name</td>
+                <td><input type="text" placeholder="Enter Name" name="" id=""></td>
+            </tr>
+
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="text" placeholder="Enter Mobile Number" name="" id=""></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Enter Email"  name="" id=""></td>
+            </tr>
+
+            <tr>
+                <td>No of person</td>
+                <td><input type="number" placeholder="Enter Number Of Person"  name="" id=""></td>
+            </tr>
+
+            <tr>
+                <td>Date</td>
+                <td><input type="date" name="" id="date" class="hide" ></td>
+            </tr>
+
+            <tr>
+                <td>Time</td>
+                <td><input type="time" name="" id="time" class="hide"></td>
+            </tr>
+
+            <tr>
+                <td>Slot</td>
+                <td><select name="" id="slot" class="hide">
+                    <option value="" hidden>Select Any One</option>
+                    <option>Breakfast</option>
+                    <option>Lunch</option>
+                    <option>Dinner</option>
+                </select></td>
+
+            </tr>
+
+            <tr > 
+                <td colspan="2">
+                    <input type="submit" name="" id="">
+                    <input type="reset" name="" id="">
+                </td>
+           
+            </tr>
+        </table>
+    </form>
+</center>
+
+<script>
+
+   let choice = document.querySelector('#choice');
+   let date = document.querySelector('#date');
+   let time = document.querySelector('#time');
+   let slot = document.querySelector('#slot');
+   
+   let hide = document.querySelectorAll('.hide')
+   console.log(hide);
+     oll();
+  function oll()
+  {
+   for(let i=0;i<hide.length;i++)
+   {
+      hide[i].style.visibility = "hidden";
+   }
+}
+
+   function chk(val)
+   {
+     if(val == "Full day booking")
+     {
+        oll();
+        date.style.visibility = ""
+       
+     }
+     else if(val == "Half day booking")
+     {
+     
+        oll();
+        date.style.visibility = ""  
+        slot.style.visibility=""
+      
+     }
+     else if(val == "Hourly booking")
+     {
+       
+        oll(); 
+        date.style.visibility = ""  
+        time.style.visibility = "" 
+     }
+     
+    
+   }
+
+
+   
+//   choice.addEventListener("click",gg)
+//    function gg(){
+//     if(choice.value == "Full day booking")
+//     {
+//         date.classList.remove('hide')
+//         time.classList.add('hide')
+//         slot.classList.add('hide')
+//     }
+//    else if(choice.value == "Half day booking")
+//     {
+//         date.classList.add('hide')
+//         time.classList.remove('hide')
+//         slot.classList.add('hide')
+//     }
+//    else if(choice.value == "Hourly booking")
+//     {
+//         date.classList.add('hide')
+//         time.classList.add('hide')
+//         slot.classList.remove('hide')
+       
+//     }
+   
+    
+//    }
+    
+</script>
+</body>
+</html>
