@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div
+    {
+      height: 500px;
+      width: 100%;
+      position: relative;
+    }
+    .btnr
+    {
+      position: absolute;
+      top: 50%;
+      right: 2%;
+      font-size: 30px;
+      padding: 10px;
+      font-weight: bold;
+
+    }
+    .l
+    {
+      right: 95%;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div>
+    <img src="1.jpg" alt="" height="500px" width="100%"  class="i1">
+    <img src="2.jpg" alt="" height="500px" width="100%"  class="i1">
+    <img src="3.jpg" alt="" height="500px" width="100%"  class="i1">
+    <img src="4.jpg" alt="" height="500px" width="100%"  class="i1">
+    <button class="btnr" onclick="test()">></button>
+    <button class="btnr l" onclick="test1()"><</button>
+</div>
+ <script>
+    var img = document.getElementsByClassName('i1');
+
+    j=0;
+      
+      function test()
+      {
+        for(i=0;i<img.length;i++)
+       {
+        img[i].style.display="none";
+       }
+       img[j].style.display='block';
+       j++;
+       if(j==4)
+       {
+        j=0;
+       }
+      
+      }
+      test()
+  
+ 
+    // function test1()
+    // {
+    //   for(i=img.length-1;i>=0;i--)
+    //   {
+    //     img[i].style.display="none";
+    //   }
+    //   {
+
+    //     img[j].style.display='block';
+    //     j++;
+    //   }
+    // }
+    // test1();
+    
+    
+  </script> 
+
+
+ 
+</body>
+</html>

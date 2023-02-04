@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;margin: 0%;padding: 0%;}
+        div
+        {
+            position: relative;
+        }
+        button
+        {
+            position: absolute;
+            top: 50%;
+            right: 5%;
+            padding: 20px;
+            background: transparent;
+            border-radius: 20%;
+            border: none;
+            box-shadow: 0 0 20px black inset;
+            font-size: 35px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="i1.jpg" alt="" id="img" height="500px" width="100%">
+        <button onclick="changeimg()">></button>
+    </div>
+
+    <script>
+       
+
+        function changeimg()
+        {
+            img = document.getElementById('img');
+            if( img.src.match('i1.jpg') )
+            {
+                img.src='i2.jpg';
+            }
+            else if(img.src.match('i2.jpg'))
+            {
+                img.src='i3.jpg';
+            }
+            else if(img.src.match('i3.jpg'))
+            {
+                img.src='i4.jpg';
+            }
+            else
+            {
+                img.src='i1.jpg';
+            }
+        }
+
+    </script>
+
+</body>
+</html>

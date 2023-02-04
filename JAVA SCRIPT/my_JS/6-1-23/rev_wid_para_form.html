@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Name: <input type="text" name="" id="nm" onblur="testr(nm,nmerr)" onkeyup="alpha(nm,namep)">
+    <span id="nmerr"></span>
+    <span id="namep"></span>
+    <br><br>
+    Mobile: <input type="text" name="" id="mb" onblur="testr(mb,mberr)" onkeyup="num(mb,nump)">
+    <span id="mberr"></span>
+    <span id="nump"></span>
+    <br><br>
+
+   
+   
+
+    <script>
+        
+        function testr(e,span){
+
+            if(e.value == "")   
+            {
+                span.innerText = "requird";
+                span.style.color = "red";
+            }
+            else
+            {
+                span.innerText = "";
+            }
+        }
+
+        function alpha(e,span)
+        {
+            name1 = /^[a-zA-Z]+$/
+
+            if(name1.test(e.value))
+            {
+                span.innerText = "";
+            }
+            else
+            {
+                span.innerText = "you can insert characters only!";
+            }
+             
+        }
+
+        function num(e,span)
+        {
+            num1 = /^[0-9]+$/
+            if(num1.test(e.value))
+            {
+                span.innerText="";
+                
+            }
+            else
+            {
+                span.innerText="you can insert number only!";
+            }
+        }
+    </script>
+</body>
+</html>

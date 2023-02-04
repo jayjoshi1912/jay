@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style type="text/css">
+		*{box-sizing: border-box;margin: 0;padding: 0}
+
+		div{
+			height: 50px;
+			width: 100%;
+			background: lightcoral;
+			position: relative;
+
+		}
+
+		ul
+		{
+			display: block;
+		}
+		ul li {
+			display: inline;
+			margin-right: 20px;
+		}
+
+		.bars{
+			font-size: 25px;
+			padding-left: 30px;
+			display: none;
+		}
+
+
+		@media(max-width:500px)
+
+		{
+			.bars{display: block;padding: 0px 20px; font-size: 50px}
+			ul{display: none;width: 100px;background: grey;position: absolute;top: 100%;left: -100%;animation: jay 1s forwards;text-align: center;}
+			ul li{display: block;}
+			ul.hidden{display: block;}
+		}
+
+		@keyframes jay
+
+		{
+			from{left: -100%}
+			to{left: 0%}
+		}
+
+
+
+	</style>
+</head>
+<body>
+<div>
+	<span class="bars" id="bars"><i class="fa-solid fa-bars"></i></span>
+	<ul id="ul">
+		<li>home</li>
+		<li>about</li>
+		<li>service</li>
+		<li>contact</li>
+	</ul>
+</div>
+
+<script type="text/javascript">
+	ul = document.getElementById('ul');
+	bar = document.getElementById('bars');
+
+
+	bar.addEventListener("click",function(){
+		ul.classList.toggle('hidden')
+	})
+</script>
+</body>
+</html>

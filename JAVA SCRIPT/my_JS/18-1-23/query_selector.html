@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="x">h1</h1>
+    <h1 id="x" >h2</h1>
+    <h1 id="x" >h3</h1>
+    <h1 id="x" >h4</h1>
+
+    <script>
+       idchk = document.querySelector('#x'); // same like document.getElementById
+        console.log(idchk);
+
+       idchk1 = document.querySelectorAll('#x') //all id get
+       console.log(idchk1)
+
+       for(i=0;i<idchk1.length;i++)
+       {
+            idchk1[i].style.color="red";
+            
+       }
+
+    </script>
+</body>
+</html>
