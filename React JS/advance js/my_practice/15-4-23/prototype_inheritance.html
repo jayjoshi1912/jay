@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    function jay(course,teacher)
+    {
+        this.course=course;
+        this.teacher=teacher;
+    }
+    let j = new jay("cdp","janki")
+
+    function any(course,teacher,name,time)
+    {
+        jay.call(this,course,teacher)
+        this.name="jay"
+        this.time=1.5
+    }
+     j = new any("cdp","nirav")
+     console.log(j);
+</script>

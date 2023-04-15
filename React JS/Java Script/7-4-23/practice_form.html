@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  method="post" onsubmit="return valid()">
+    
+        <table border="2" align="center">
+            <tr>
+                <td>name:</td>
+                <td><input type="text" name="" id="name" class="same"></td>
+            </tr>
+            <tr>
+                <td>email:</td>
+                <td><input type="email" name="" id="" class="same"></td>
+            </tr>
+            <tr>
+                <td>passowrd:</td>
+                <td><input type="password" name="" id="" class="same"></td>
+            </tr>
+            <tr>
+                <td>mobile:</td>
+                <td><input type="text" name="" id="" class="same"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input  type="submit" name="" id="" value="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+<script>
+    function valid()
+    {
+        
+       let same = document.querySelector(".same")
+
+    //    console.log(same);
+        // let  same = document.getElementById("name")
+        if(same.value == "")
+        {
+            alert("please enter details...!")
+            return false;
+        }
+        else{
+            alert("please filup")   
+        }
+    }
+</script>

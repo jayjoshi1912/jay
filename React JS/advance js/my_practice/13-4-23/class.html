@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    class myclass
+    {
+        constructor()
+        {
+            console.log("this is myclass");
+        }
+    }
+    let obj = new myclass
+
+
+    // with parameter
+    class class2
+    {
+        constructor(name,grade)
+        {
+            this.name="jay";
+            this.grade="A"
+            console.log(`the student name is ${this.name} and grade is ${this.grade}`); //way 1 
+        }
+    }
+    let ob1 = new class2
+    console.log(ob1);
+    console.log(`name is ${ob1.name}`);
+    console.log("name is"+ob1.name);
+    console.log(ob1.grade);
+    // console.log(`the student name is ${ob1.name} and grade is ${ob1.grade}`); //way 2
+
+    class my 
+    {
+        constructor(a,b)
+        {
+            this.a=a;
+            this.b=b;
+            console.log(`the student name is ${this.a} and surname is ${this.b}`);   
+        }
+    }
+    let r = new my("jay","joshi")
+    console.log(r);
+
+
+</script>

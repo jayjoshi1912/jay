@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 300px;
+            width: 300px;
+            border: 2px solid;
+        }
+
+        .jay{
+            height: 30px;
+            width: 50px;
+            padding: 5px;
+           margin:  30px 30px;
+           background-color: red;
+
+        }
+
+        .green{
+            background-color: green;
+        }
+        .blue{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <div class="main" id="box" ></div>
+    <button class="red jay" >red</button>
+    <button class="green jay" >green</button>
+    <button class="blue jay" >blue</button>
+</body>
+</html>
+
+<script>
+  var b1 = document.getElementById("box")   
+ 
+  var b2 = document.querySelectorAll(".jay")
+        console.log(b2);
+
+
+        for(let i=0;i<b2.length;i++)
+        {
+            b2[i].addEventListener('click',function () {
+
+                if(i == 0)
+                {
+                    b1.style.backgroundColor = "red";
+                }
+                else if(i==1)
+                {
+                    b1.style.backgroundColor = "green";
+                }
+                else    
+                {
+                    b1.style.backgroundColor = "blue";
+                }
+            })
+        }
+
+
+        // function red()
+        // {
+        //     b1.style.backgroundColor = "red"
+        // }
+
+        // function blue()
+        // {
+        //     b1.style.backgroundColor = "blue"
+        // }
+
+        // function green()
+        // {
+        //     b1.style.backgroundColor = "green"
+        // }
+
+
+    
+</script>

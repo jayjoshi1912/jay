@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    function jay(course,teacher)
+    {
+        this.course=course;
+        this.teacher=teacher;
+    }
+    const j = new jay("CDP","NIRAV")
+    console.log(j);
+
+    jay.prototype.name="jay"
+    jay.prototype.c_time= 1.5
+    console.log(j.name);
+    console.log(j.c_time);
+</script>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <input type="text" name="one" id="one">
+   <input type="text" name="" id="two">
+   <button onclick="multi()">click</button>
+   <span id="result"></span>
+
+</body>
+</html>
+<script>
+
+    // function multi()
+    // {
+    //     let num1 = document.getElementById("one").value;
+    //     let num2 = document.getElementById("two").value;
+        
+    //     // let m = num1*num2
+    //     let m = parseInt(num1)+parseInt(num2)
+    //     document.getElementById("result").innerHTML= m;
+    // }
+
+
+    function multi()
+    {
+        let n1 = document.getElementById("one").value;
+        let n2= document.getElementById("two").value;
+
+        m = n1*n2;
+        document.getElementById("result").innerHTML="multiplication is : "+m;
+    }
+
+
+
+</script>
