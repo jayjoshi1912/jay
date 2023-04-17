@@ -7,6 +7,58 @@
     <title>Document</title>
 </head>
 <body>
+
+    <table border="1" style="padding: 10px;"  align="center">
+        <tr>
+            <td>product info</td>
+            <td>quantity</td>
+            <td>price(per unit)</td>
+            <td>price(subtotal)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>fortunata window hardware-Decorative holdbacks-mocha</td>
+            <td><select name="" id="pro_quantity" onchange="total_pro()">
+                <option hidden>Quantity</option>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+
+            </select></td>
+            <td><input type="text" name="" id="prd_price" value="29.99"></td>
+            <td id="res"></td>
+            <td style="background-color: brown; padding: 5px;color: aliceblue; cursor: pointer;" id="rm">romove</td>
+
+        </tr>
+        <tr>
+            <td>woven trelis window hardware -clip-ring -bronze</td>
+            <td><select name="" id="pro_quantity2" onchange="total_pro()">
+                <option hidden>Quantity</option>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+
+            </select></td>
+            <td><input type="text" name="" id="prd_price2" value="12.99"></td>
+            <td id="res2"></td>
+            <td style="background-color: brown; padding: 5px;color: aliceblue; cursor: pointer;" id="rm2">romove</td>
+
+        </tr>
+        <tr  >
+            <td></td>
+            <td></td>
+            <td></td>
+            <td onchange="total_pro()"><input type="text" name="" id="main" ></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+
     <p>1.What is JavaScript Output method?</p>
     <p>=>  Writing into the HTML output using document.write() .</p>
     <p>2.How to used JavaScript Output method?</p>
@@ -21,3 +73,67 @@
         </p>
 </body>
 </html>
+
+
+<script>
+    var prd_q = document.getElementById("pro_quantity");
+    var prd_p = document.getElementById("prd_price");
+    var remove = document.getElementById("rm");
+
+    var prd_q2 = document.getElementById("pro_quantity2");
+    var prd_p2 = document.getElementById("prd_price2");
+    var remove2 = document.getElementById("rm2");
+    
+    let pro_price=document.getElementById("res");
+    let pro_price2=document.getElementById("res2");
+    let f_total=document.getElementById('main')
+
+    console.log(pro_price);
+ 
+    function total_pro()
+    {
+       
+       pro_price.innerHTML=prd_p.value*prd_q.value;
+        sub1=pro_price.innerHTML
+
+
+       pro_price2.innerHTML = prd_p2.value*prd_q2.value;
+        sub2=pro_price2.innerHTML
+
+
+        
+        subtotal=parseFloat(sub1)+parseFloat(sub2)
+        f_total.value =subtotal
+  
+        
+    //    f_total.innerHTML= pro_price.innerHTML + pro_price2.innerHTML
+    }
+    
+
+       remove.addEventListener("click",function(){
+           document.getElementById("res").innerHTML="";
+           prd_q.value=0;
+
+           pro_price2.innerHTML = prd_p2.value*prd_q2.value;
+           subtotal = parseFloat(pro_price2.innerHTML)
+           f_total.value=subtotal
+
+       })
+      
+       remove2.addEventListener("click",function(){
+           document.getElementById("res2").innerHTML="";
+           prd_q2.value=0;
+           pro_price.innerHTML=prd_p.value*prd_q.value;
+           subtotal = parseFloat(pro_price.innerHTML)
+           f_total.value=subtotal
+
+       }) 
+  
+    
+     
+     
+       
+          
+   
+
+</script>
