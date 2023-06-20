@@ -1,0 +1,9 @@
+.card{
+    border: 1px solid;
+    width: 8%;
+    box-shadow: 2px 2px 3px black;
+    text-align: center;
+}
+.card p{
+    font-weight: bold;
+}
