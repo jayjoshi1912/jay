@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+         
+        }
+        body{
+            background-color: rgb(242, 28, 99);
+            
+
+            
+        }
+        .main{
+            /* height: 300px; */
+            width: 400px;
+            background-color: #fff;
+            padding: 0px  30px;
+            text-align: center;
+            margin: 200px auto;
+
+
+        }
+        .main .log{
+            
+            width: 100%;
+            display: flex;
+            text-align: center;
+            
+            
+            
+            
+
+        }
+        .main .log .login{
+            
+            border: 1px solid;
+            width: 50%;
+            padding: 6px;
+            margin: 15px 0px;
+            border-radius: 5px;
+            
+        }
+    
+        .main input{
+            padding:7px;
+            width: 100%;
+            margin: 5px 0px;
+            
+        }
+        .main .sb {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(242, 82, 109);
+            border-radius: 6px;    
+            border: none;
+            margin: 10px 0px;
+            color: #fff;
+        }
+
+        .main a{
+            
+            text-decoration: none;
+            
+        }
+        .main span{
+            color: palevioletred;
+        }
+        .log2{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+   <form action="">
+    <div class="main">
+        <h1 id="lo">Login Form</h1>
+        <div class="log">
+            <div class="login" id="login">Login</div>
+            <div class="login" id="sig">Signup</div>
+        </div>
+        <div class="log1">
+            <input type="email"  placeholder="Email Address" name="" id="" required><br>
+        <input type="password" required name="" placeholder="password" id=""><br>
+
+        <input class="sb" type="submit" value="Login" name="" id="">
+        <p>Not a member? <span>signup now</span></p>
+        </div>
+
+        <div class="log2">
+            
+        <input type="email"  placeholder="Email Address" name="" id="" required><br>
+        <input type="password" required name="" placeholder="password" id=""><br>
+        <input type="password" placeholder="confirm password" name="" id="">
+        <input class="sb" type="submit" value="Signup" name="" id="">
+        </div>
+   
+       
+    </div>
+    
+   </form>
+</body>
+
+<script>
+    var x = document.querySelector("#sig");
+var y = document.querySelector("#login");
+var z = document.querySelector("#lo");
+var a = document.querySelector(".log1");
+var b = document.querySelector(".log2");
+
+
+
+y.addEventListener("click", () => {
+  z.innerHTML = "Login Form";
+  a.style.display = "block"; 
+  b.style.display = "none"; 
+  y.style.background='pink';
+  x.style.background='white';
+
+ 
+});
+
+x.addEventListener("click", () => {
+  z.innerHTML = "SignUp Form";
+a.style.display = "none"; 
+  b.style.display = "block"; 
+  x.style.background='pink';
+  y.style.background='white';
+
+
+ 
+});
+
+</script>
+</html>
